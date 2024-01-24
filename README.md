@@ -1,4 +1,4 @@
-# Title: A Simple Guide to Thompson Sampling Algorithm for Ad Decision Making
+Title: A Simple Guide to Thompson Sampling Algorithm for Ad Decision Making
 
 In the vast landscape of online advertising, making informed decisions about which ad to display is critical for maximizing user engagement and optimizing revenue. One powerful algorithm that aids in this decision-making process is Thompson Sampling.
 
@@ -17,7 +17,7 @@ Thompson Sampling leverages Bayesian probability to model uncertainty and update
 ### How the Algorithm Works:
 
 1. **Initialization:**
-   - Each ad starts with a Beta distribution with \(\alpha = 1\) and \(\beta = 1\), indicating initial uncertainty.
+   - Each ad starts with a Beta distribution with α = 1 and β = 1, indicating initial uncertainty.
   
 2. **Sampling:**
    - For each round of ad display, the algorithm samples a random value from each ad's Beta distribution.
@@ -30,10 +30,9 @@ Thompson Sampling leverages Bayesian probability to model uncertainty and update
 4. **Repeat:**
    - Steps 2-3 are repeated for each round, refining the algorithm's understanding of ad performance.
 
-- Thompson Sampling Sampling Formula: \(X_i \sim \text{Beta}(\alpha_i, \beta_i)\)
-- Update Formula: 
-  - If ad \(i\) is selected and receives a click: \(\alpha_i \gets \alpha_i + 1\)
-  - If ad \(i\) is selected and does not receive a click: \(\beta_i \gets \beta_i + 1\)
+### Formulas:
+
+![image](https://github.com/BimsaraS99/Thompson-Sampling-Reinforcement-Learning-ml/assets/107334404/363bcf60-7b38-4ec4-8853-eb2b238fc00b)
 
 
 ### Real-World Example:
