@@ -30,12 +30,11 @@ Thompson Sampling leverages Bayesian probability to model uncertainty and update
 4. **Repeat:**
    - Steps 2-3 are repeated for each round, refining the algorithm's understanding of ad performance.
 
-### Formulas:
-
 - Thompson Sampling Sampling Formula: \(X_i \sim \text{Beta}(\alpha_i, \beta_i)\)
 - Update Formula: 
   - If ad \(i\) is selected and receives a click: \(\alpha_i \gets \alpha_i + 1\)
   - If ad \(i\) is selected and does not receive a click: \(\beta_i \gets \beta_i + 1\)
+
 
 ### Real-World Example:
 
