@@ -1,4 +1,4 @@
-Title: A Simple Guide to Thompson Sampling Algorithm for Ad Decision Making
+# Title: A Simple Guide to Thompson Sampling Algorithm for Ad Decision Making
 
 In the vast landscape of online advertising, making informed decisions about which ad to display is critical for maximizing user engagement and optimizing revenue. One powerful algorithm that aids in this decision-making process is Thompson Sampling.
 
